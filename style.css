@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* COMANDO PARA DAR SCROLL AO CLICKAR NA SECTION */
+html{
+    scroll-behavior: smooth;
+}
+
+/* MENU */
+.container-header {
+    background: #4c0027;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.container-header header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+.container-header header .logo a{
+    font-family: 'Rigtheous';
+    font-size: 36px;
+    color: #349209;
+    text-decoration: none;
+}
+.container-header header ul {
+    display: flex;
+    list-style: none;
+}
+.container-header header nav ul li a{
+    text-decoration: none;
+    text-align: none;
+    color: #349209;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+}
+.container-header header nav ul li a:hover {
+    color: #fff; 
+}
+
+/* .nav-responsive{
+    background-color: #c41818;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+} */
